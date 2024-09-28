@@ -284,7 +284,7 @@ footer{
     justify-content: center;
     gap: 10em;
     bottom: 0;
-    background-color: var(--second-background);
+    background-color: var(--background);
     width: 100%;
     padding: 5em 15%;
 }
@@ -292,6 +292,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 1em;
+    
+}
+.col-left .col-box{
+    padding: 0.6em;
 }
 .col-box{
     display: flex;
@@ -417,3 +421,47 @@ footer{
         gap: 5em;
     }
 }
+#information{
+    background-color: var(--second-background);
+    height: auto;
+}
+#information .container {
+    background-color: var(--second-background);
+}
+.infor-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(177, 166, 166);
+}
+
+.infor-title h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.infor-into {
+    margin: 25px 50px;
+    color: white;
+}
+
+.infor-into h3 {
+    
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+}
+
+.infor-into p {
+    text-align: left;
+    padding: 12px;
+    font-size: 18px;
+    color: rgb(245, 209, 209);
+    
+}
+.infor-into a{
+    color: rgb(245, 209, 209);
+
+}
+

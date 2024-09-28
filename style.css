@@ -282,11 +282,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10em;
+    gap: 60em;
     bottom: 0;
     background-color: var(--background);
     width: 100%;
-    padding: 5em 15%;
+    
 }
 .col-left{
     display: flex;
@@ -300,15 +300,15 @@ footer{
 .col-box{
     display: flex;
     align-items: center;
-    gap: 1em;
+    /* gap: 1em; */
 }
 .col-box i{
-    font-size: 2em;
+    font-size: 1em;
     height: 10px;
     width: 50px;
 }
 .col-box span{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .col-right{
     display: flex;

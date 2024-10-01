@@ -168,6 +168,7 @@ section{
     color: white;
     opacity: 0.8;
     align-items: baseline;
+    
 }
 .skills ul li span{
     display: flex;
@@ -278,7 +279,7 @@ section{
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 2em;
 }
-footer{
+.footer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -464,4 +465,76 @@ footer{
     color: rgb(245, 209, 209);
 
 }
+.article-box {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fafafa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.article-box h1 {
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+}
+
+.article-box .article-meta {
+    font-size: 14px !important;
+    color: #888 !important;
+    margin-bottom: 20px !important;
+}
+
+.article-box p {
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+}
+
+.article-box blockquote {
+    font-size: 18px !important;
+    color: #555 !important;
+    padding-left: 15px !important;
+    border-left: 4px solid #ccc !important;
+    margin-bottom: 20px !important;
+}
+
+.article-box .article-ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    display: block;
+    list-style: initial;
+}
+
+.article-box .article-ul .article-li {
+    margin-bottom: 5px;
+    display: list-item;
+    list-style: initial;
+}
+
+.article-box figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-box figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-box figure figcaption {
+    font-size: 14px;
+    color: #6d6c6c;
+    margin-top: 5px;
+}
+
+.article-footer {
+    text-align: right !important; 
+    margin-top: 20px !important;
+    font-size: 14px !important;
+    color: #818181 !important;
+}
+.space{
+    color: white;
+}

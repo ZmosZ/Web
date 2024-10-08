@@ -103,25 +103,7 @@ section{
     font-size: 5em;
     font-weight: 500;
 }
-.info-box h3{
-    font-size: 2em;
-    font-weight: 400;
-}
-.info-box p{
-    opacity: 0.7;
-}
-.btn-box{
-    display: flex;
-    gap: 1em;
-}
-.btn-box .btn:nth-of-type(2){
-    background-color: white;
-    color: var(--background);
-}
-.btn-box .btn:nth-of-type(2):hover{
-    background-color: var(--background);
-    color: white;
-}
+
 
 ::-webkit-scrollbar{
     width: 15px;
@@ -186,10 +168,7 @@ section{
 .about-box h2{
     font-size: 2.5em;
 }
-/* .h-image{
-    width: 30vw;
-    border-radius: 50%;
-} */
+
 .Education{
     display: flex;
     text-align: left;
@@ -270,6 +249,9 @@ section{
 .box img{
     min-width: 25px;
     border-radius: 0.5em;
+}
+.project .box img{
+    height: 150px;
 }
 #picture{
     background-color: var(--second-background);
@@ -422,48 +404,8 @@ section{
         gap: 5em;
     }
 }
-#information{
+#article{
     background-color: var(--second-background);
-    height: auto;
-}
-#information .container {
-    background-color: var(--second-background);
-}
-.infor-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(177, 166, 166);
-}
-
-.infor-title h3 {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-}
-
-.infor-into {
-    margin: 25px 50px;
-    color: white;
-}
-
-.infor-into h3 {
-    
-    font-weight: bold;
-    font-size: 26px;
-    color: white;
-}
-
-.infor-into p {
-    text-align: left;
-    padding: 12px;
-    font-size: 18px;
-    color: rgb(245, 209, 209);
-    
-}
-.infor-into a{
-    color: rgb(245, 209, 209);
-
 }
 .article-box {
     border: 2px solid #ccc;
@@ -471,32 +413,34 @@ section{
     padding: 20px;
     max-width: 800px;
     margin: 40px auto;
-    background-color: #fafafa;
+    background-color: var(--background);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .article-box h1 {
-    font-size: 28px !important;
-    margin-bottom: 10px !important;
+    font-size: 28px ;
+    margin-bottom: 10px ;
 }
 
 .article-box .article-meta {
-    font-size: 14px !important;
-    color: #888 !important;
-    margin-bottom: 20px !important;
+    font-size: 14px ;
+    color: #888;
+    margin-bottom: 20px ;
 }
 
 .article-box p {
-    line-height: 1.6 !important;
-    margin-bottom: 15px !important;
+    line-height: 1.6 ;
+    margin-bottom: 15px ;
+    color: rgb(226, 225, 225);
 }
 
 .article-box blockquote {
-    font-size: 18px !important;
-    color: #555 !important;
-    padding-left: 15px !important;
-    border-left: 4px solid #ccc !important;
-    margin-bottom: 20px !important;
+    font-size: 18px ;
+    color: #a8a5a5 ;
+    padding-left: 15px ;
+    border-left: 4px solid #ccc ;
+    margin-bottom: 20px ;
 }
 
 .article-box .article-ul {
@@ -504,13 +448,13 @@ section{
     padding-left: 20px;
     margin-bottom: 20px;
     display: block;
-    list-style: initial;
+    color: rgb(226, 225, 225);
 }
 
 .article-box .article-ul .article-li {
     margin-bottom: 5px;
     display: list-item;
-    list-style: initial;
+    list-style-type:circle ;
 }
 
 .article-box figure {
@@ -520,7 +464,7 @@ section{
 
 .article-box figure img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .article-box figure figcaption {
@@ -530,11 +474,14 @@ section{
 }
 
 .article-footer {
-    text-align: right !important; 
-    margin-top: 20px !important;
-    font-size: 14px !important;
-    color: #818181 !important;
+    text-align: right ; 
+    margin-top: 20px ;
+    font-size: 14px ;
+    color: #818181 ;
 }
-.space{
-    color: white;
+.article-p a{
+    color: rgb(86, 32, 249);
+}
+.article-p{
+    color: rgb(226, 225, 225);
 }

@@ -398,9 +398,23 @@ section{
     color: rgb(226, 225, 225);
 }
 .credit {
-    font-size: 1.2em;
-    color: white;
+    font-size: 1.1em;
+    color: rgb(230, 214, 214);
+    text-align: center;
+    
 }
+.credit-box{
+    border: 2px solid rgb(82, 82, 82);
+    border-radius: 20px;
+    width: auto;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.credit-box p {
+    text-align: left;
+}
+
 @media (max-width:1290px) {
     .footer{
         gap: 43em;

@@ -1,14 +1,13 @@
-// การทำงานของเมนู เมื่อคลิกแล้วจะเปิดหรือปิดเมนู
+
 const menu = document.querySelector("#menu");
 const nav = document.querySelector(".links");
-let timeoutId;  // ประกาศตัวแปร timeoutId เป็น global
+let timeoutId;
 
 menu.onclick = () => {
     menu.classList.toggle('bo-x');
     nav.classList.toggle('active');
 }
 
-// ปิดเมนูอัตโนมัติเมื่อคลิกที่ลิงก์ใดๆ ในเมนู
 document.querySelectorAll('.links a').forEach(link => {
     link.onclick = () => {
         menu.classList.remove('bo-x');
@@ -16,9 +15,13 @@ document.querySelectorAll('.links a').forEach(link => {
     }
 });
 
-// ฟังก์ชันสำหรับการเปลี่ยนภาพเมื่อวางเมาส์บนภาพ (เปลี่ยนภาพหลังจากรอ 100ms)
+
 function changeImage(imageId, newSrc) {
     timeoutId = setTimeout(function() {
         document.getElementById(imageId).src = newSrc;
     }, 100);
 }
+function resetImage(imageId, originalSrc) {
+    clearTimeout(timeoutId);
+    document.getElementById(imageId).src = originalSrc;
+  }
